@@ -8,3 +8,5 @@ Berikut adalah file-file yang dilampirkan :
 * lostfound.html : *front-end* yang menerapkan fungsi-fungsi pada lostfound.php
 * lostfound3.css : CSS file untuk memperindah file HTML
 * php-graph-sdk/ : API yang digunakan untuk membantu menjalankan fungsi pada api.php
+
+Untuk melihat dokumentasi lengkapnya, dapat dilihat pada [file ini](https://github.com/jessyjosephine/LostAndFoundAPI/blob/master/TB_II3160_Jessy%20Josephine%20Naomi_18214021.pdf)
