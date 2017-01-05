@@ -1,0 +1,14 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^data/attachment/(.*)$ ./api.php?act=getAttachment&id=$1
+RewriteRule ^data/([0-9]+)$ ./api.php?act=getFbData&limit=$1
+RewriteRule ^data/all/([0-9]+)$ ./api.php?act=combineDB&limit=$1
+RewriteRule ^data/([0-9]+)/search/(.*)$ ./api.php?act=searchData&limit=$1&search=$2
+RewriteRule ^data/add$ ./api.php?act=add 
+RewriteRule ^data/delete/([0-9]+)$ ./api.php?act=delete&id=$1
+AddType application/x-httpd-php .htm .html
+php_value max_execution_time 300
+
+
